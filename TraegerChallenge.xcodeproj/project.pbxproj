@@ -12,8 +12,18 @@
 		845F0EAD2724681D004F1C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EAC2724681D004F1C36 /* Assets.xcassets */; };
 		845F0EB02724681D004F1C36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EAF2724681D004F1C36 /* Preview Assets.xcassets */; };
 		845F0EBA2724681D004F1C36 /* TraegerChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EB92724681D004F1C36 /* TraegerChallengeTests.swift */; };
-		845F0EC42724681D004F1C36 /* TraegerChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EC32724681D004F1C36 /* TraegerChallengeUITests.swift */; };
-		845F0EC62724681D004F1C36 /* TraegerChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EC52724681D004F1C36 /* TraegerChallengeUITestsLaunchTests.swift */; };
+		845F0ED327247762004F1C36 /* APODItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0ED227247762004F1C36 /* APODItems.swift */; };
+		845F0ED427247762004F1C36 /* APODItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0ED227247762004F1C36 /* APODItems.swift */; };
+		845F0EDC27248A27004F1C36 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EDB27248A27004F1C36 /* ListItem.swift */; };
+		845F0EDD27248A27004F1C36 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F0EDB27248A27004F1C36 /* ListItem.swift */; };
+		845F0EE327248B31004F1C36 /* single_APOD.json in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EE227248B31004F1C36 /* single_APOD.json */; };
+		845F0EE427248B31004F1C36 /* single_APOD.json in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EE227248B31004F1C36 /* single_APOD.json */; };
+		845F0EE627248B42004F1C36 /* multiple_APODs.json in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EE527248B42004F1C36 /* multiple_APODs.json */; };
+		845F0EE727248B42004F1C36 /* multiple_APODs.json in Resources */ = {isa = PBXBuildFile; fileRef = 845F0EE527248B42004F1C36 /* multiple_APODs.json */; };
+		84BDEA952724A02300091A32 /* APODImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEA942724A02300091A32 /* APODImageFetcher.swift */; };
+		84BDEA982725778D00091A32 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEA972725778D00091A32 /* API.swift */; };
+		84BDEA9B27257B4100091A32 /* APODItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEA9A27257B4100091A32 /* APODItemViewModel.swift */; };
+		84BDEA9D27258F8C00091A32 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDEA9C27258F8C00091A32 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +52,15 @@
 		845F0EB52724681D004F1C36 /* TraegerChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraegerChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F0EB92724681D004F1C36 /* TraegerChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraegerChallengeTests.swift; sourceTree = "<group>"; };
 		845F0EBF2724681D004F1C36 /* TraegerChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraegerChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		845F0EC32724681D004F1C36 /* TraegerChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraegerChallengeUITests.swift; sourceTree = "<group>"; };
-		845F0EC52724681D004F1C36 /* TraegerChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraegerChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845F0ED227247762004F1C36 /* APODItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODItems.swift; sourceTree = "<group>"; };
+		845F0EDB27248A27004F1C36 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		845F0EE227248B31004F1C36 /* single_APOD.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = single_APOD.json; sourceTree = "<group>"; };
+		845F0EE527248B42004F1C36 /* multiple_APODs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = multiple_APODs.json; sourceTree = "<group>"; };
+		84BDEA942724A02300091A32 /* APODImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODImageFetcher.swift; sourceTree = "<group>"; };
+		84BDEA972725778D00091A32 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		84BDEA9A27257B4100091A32 /* APODItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APODItemViewModel.swift; sourceTree = "<group>"; };
+		84BDEA9C27258F8C00091A32 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		84BDEA9E2725A22000091A32 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +91,9 @@
 		845F0E9C2724681A004F1C36 = {
 			isa = PBXGroup;
 			children = (
+				84BDEA9E2725A22000091A32 /* README.md */,
 				845F0EA72724681A004F1C36 /* TraegerChallenge */,
 				845F0EB82724681D004F1C36 /* TraegerChallengeTests */,
-				845F0EC22724681D004F1C36 /* TraegerChallengeUITests */,
 				845F0EA62724681A004F1C36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +111,10 @@
 		845F0EA72724681A004F1C36 /* TraegerChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				845F0EA82724681A004F1C36 /* TraegerChallengeApp.swift */,
-				845F0EAA2724681A004F1C36 /* ContentView.swift */,
-				845F0EAC2724681D004F1C36 /* Assets.xcassets */,
+				84BDEA9927257A2F00091A32 /* ViewModel */,
+				845F0EDA272489B7004F1C36 /* Views */,
+				845F0ED9272489A7004F1C36 /* App */,
+				845F0ED82724791B004F1C36 /* Model */,
 				845F0EAE2724681D004F1C36 /* Preview Content */,
 			);
 			path = TraegerChallenge;
@@ -113,18 +131,56 @@
 		845F0EB82724681D004F1C36 /* TraegerChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				845F0EE127248B1C004F1C36 /* Assets */,
 				845F0EB92724681D004F1C36 /* TraegerChallengeTests.swift */,
 			);
 			path = TraegerChallengeTests;
 			sourceTree = "<group>";
 		};
-		845F0EC22724681D004F1C36 /* TraegerChallengeUITests */ = {
+		845F0ED82724791B004F1C36 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				845F0EC32724681D004F1C36 /* TraegerChallengeUITests.swift */,
-				845F0EC52724681D004F1C36 /* TraegerChallengeUITestsLaunchTests.swift */,
+				84BDEA972725778D00091A32 /* API.swift */,
+				845F0ED227247762004F1C36 /* APODItems.swift */,
+				84BDEA942724A02300091A32 /* APODImageFetcher.swift */,
 			);
-			path = TraegerChallengeUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845F0ED9272489A7004F1C36 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				845F0EAC2724681D004F1C36 /* Assets.xcassets */,
+				845F0EA82724681A004F1C36 /* TraegerChallengeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		845F0EDA272489B7004F1C36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				845F0EAA2724681A004F1C36 /* ContentView.swift */,
+				845F0EDB27248A27004F1C36 /* ListItem.swift */,
+				84BDEA9C27258F8C00091A32 /* ItemDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		845F0EE127248B1C004F1C36 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				845F0EE227248B31004F1C36 /* single_APOD.json */,
+				845F0EE527248B42004F1C36 /* multiple_APODs.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		84BDEA9927257A2F00091A32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84BDEA9A27257B4100091A32 /* APODItemViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845F0EE627248B42004F1C36 /* multiple_APODs.json in Resources */,
 				845F0EB02724681D004F1C36 /* Preview Assets.xcassets in Resources */,
 				845F0EAD2724681D004F1C36 /* Assets.xcassets in Resources */,
+				845F0EE327248B31004F1C36 /* single_APOD.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +298,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845F0EE727248B42004F1C36 /* multiple_APODs.json in Resources */,
+				845F0EE427248B31004F1C36 /* single_APOD.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845F0ED327247762004F1C36 /* APODItems.swift in Sources */,
 				845F0EAB2724681A004F1C36 /* ContentView.swift in Sources */,
 				845F0EA92724681A004F1C36 /* TraegerChallengeApp.swift in Sources */,
+				84BDEA9B27257B4100091A32 /* APODItemViewModel.swift in Sources */,
+				84BDEA952724A02300091A32 /* APODImageFetcher.swift in Sources */,
+				84BDEA9D27258F8C00091A32 /* ItemDetail.swift in Sources */,
+				845F0EDC27248A27004F1C36 /* ListItem.swift in Sources */,
+				84BDEA982725778D00091A32 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845F0ED427247762004F1C36 /* APODItems.swift in Sources */,
+				845F0EDD27248A27004F1C36 /* ListItem.swift in Sources */,
 				845F0EBA2724681D004F1C36 /* TraegerChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845F0EC42724681D004F1C36 /* TraegerChallengeUITests.swift in Sources */,
-				845F0EC62724681D004F1C36 /* TraegerChallengeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
