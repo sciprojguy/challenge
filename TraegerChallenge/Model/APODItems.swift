@@ -11,7 +11,7 @@ import Combine
 struct APODItem:Decodable, Hashable {
     let date: String
     let explanation: String
-    let hdurl: String
+    let hdurl: String?
     let media_type: String
     let service_version: String
     let title: String
