@@ -15,7 +15,7 @@ struct ItemDetail: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 4) {
-                Text(item.itemTitle)
+                Text(item.itemTitle).font(.headline)
                 if let img = APODImageFetcher().capturedImage(imgName: item.itemImageName) {
                     Image(uiImage: img).resizable().frame(width: 256, height: 256, alignment: .center)
                 }
@@ -23,10 +23,7 @@ struct ItemDetail: View {
                     Text("Image not cached")
                 }
                 Text(item.itemDescription ?? "no description available")
-                    .lineLimit(nil)
-                Button("Close") {
-                    apodImgFetcher.imageName = nil
-                }
+                    .lineLimit(nil).font(.subheadline)
             }.background(Color.white).frame(maxWidth: .infinity, maxHeight: .infinity)
         }
     }

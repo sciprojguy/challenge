@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct APODItemViewModel: Hashable {
+struct APODItemViewModel: Hashable, Identifiable {
+    var id = UUID()
     let formattedDate: String
     let itemTitle: String
     let itemUrl: String

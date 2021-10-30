@@ -45,12 +45,16 @@ struct ContentView: View {
                         }
                     }.frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
+            }.sheet(item: $detailItem) { item in
+                ItemDetail(item: item)
             }
-            if nil != self.detailItem {
-                if let imgName = self.apodImgFetcher.imageName {
-                    ItemDetail(item: self.detailItem!)
-                }
-            }
+            
+//
+//            if nil != self.detailItem {
+//                if let imgName = self.apodImgFetcher.imageName {
+//                    ItemDetail(item: self.detailItem!)
+//                }
+//            }
         }
         .onAppear(perform:  {apodItems.fetch7MostRecentAPODs()})
     }
